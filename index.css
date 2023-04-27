@@ -1,0 +1,20 @@
+/* Nav menu section:  */
+
+selector.elementor-sticky--effects{
+   background-color:black !important;
+}
+
+selector{
+   transition: background-color 2s ease !important;
+}
+
+
+selector > .elementor-container{
+   transition: min-height 2s ease !important;
+}
+@media all and (max-width: 767px) {
+    selector > .elementor-container{
+        background-color:black;
+    }
+    
+}
